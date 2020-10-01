@@ -1,3 +1,5 @@
+/* Author: Shreeyans Bahadkar */
+
 /* Create an array of student structure to store the roll no, name and marks in 3 subjects. Input the details of N students into the array and display the name and % of marks for the first two toppers [Sorting not allowed] */
 
 #include <stdio.h>
