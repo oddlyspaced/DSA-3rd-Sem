@@ -1,3 +1,5 @@
+/* Author: Shreeyans Bahadkar */
+
 /* Create a student record with name, roll no, marks of 3 subjects (m1, m2, m3). Display the details of the students in ascending order of their average marks. */
 
 #include <stdio.h>
