@@ -117,15 +117,7 @@ void parse_infix() {
             push(c);
         }
         else if (c == ')') {
-            while (1) {
-                char p = pop();
-                if (p == '(') {
-                    break;
-                }
-                else {
-                    printf("%c", p);
-                }
-            }
+            pop_until_bracket();
         }
         else {
             if (is_operator(c) == 1) {
