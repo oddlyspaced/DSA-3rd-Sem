@@ -53,7 +53,7 @@ void print_list(struct node *p) {
 }
 
 int is_operator(char c) {
-    char op[] = {'^', '+', '-', '*', '/', '%', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    char op[] = {'^', '+', '-', '*', '/', '%'};
     int i;
     for (i = 0; i < 6; i++) {
         if (op[i] == c) {
